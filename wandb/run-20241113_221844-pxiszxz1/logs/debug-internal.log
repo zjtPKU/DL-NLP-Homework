@@ -1,0 +1,20 @@
+{"time":"2024-11-13T22:18:44.092765781Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T22:18:44.092807429Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241113_221844-pxiszxz1/logs/debug-core.log"}
+{"time":"2024-11-13T22:18:44.811167843Z","level":"INFO","msg":"created new stream","id":"pxiszxz1"}
+{"time":"2024-11-13T22:18:44.811213396Z","level":"INFO","msg":"stream: started","id":"pxiszxz1"}
+{"time":"2024-11-13T22:18:44.81129821Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pxiszxz1"}}
+{"time":"2024-11-13T22:18:44.811366147Z","level":"INFO","msg":"handler: started","stream_id":{"value":"pxiszxz1"}}
+{"time":"2024-11-13T22:18:44.811439358Z","level":"INFO","msg":"sender: started","stream_id":"pxiszxz1"}
+{"time":"2024-11-13T22:18:45.426932818Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T22:43:15.259739669Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T22:43:15.260646942Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T22:43:15.609772997Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-13T22:43:15.609821866Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-13T22:43:15.609832511Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-13T22:43:16.260517268Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.656199793,"progress":"624B/624B"},{"desc":"uploading config.yaml","runtime_seconds":0.326280648,"progress":"9.6KB/9.6KB"},{"desc":"uploading output.log","runtime_seconds":0.326259187,"progress":"13.8KB/13.8KB"},{"desc":"uploading history, summary, console logs","runtime_seconds":0.010081693}],"total_operations":4}}
+{"time":"2024-11-13T22:43:16.507412048Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-13T22:43:18.269844002Z","level":"INFO","msg":"stream: closing","id":"pxiszxz1"}
+{"time":"2024-11-13T22:43:18.269882145Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"pxiszxz1"}}
+{"time":"2024-11-13T22:43:18.269909943Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pxiszxz1"}}
+{"time":"2024-11-13T22:43:18.269974215Z","level":"INFO","msg":"sender: closed","stream_id":"pxiszxz1"}
+{"time":"2024-11-13T22:43:18.27008964Z","level":"INFO","msg":"stream: closed","id":"pxiszxz1"}

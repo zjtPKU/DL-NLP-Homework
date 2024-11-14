@@ -1,0 +1,23 @@
+{"time":"2024-11-14T10:35:48.270046237Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-14T10:35:48.27008859Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241114_103548-aqil41pc/logs/debug-core.log"}
+{"time":"2024-11-14T10:35:48.687637542Z","level":"INFO","msg":"created new stream","id":"aqil41pc"}
+{"time":"2024-11-14T10:35:48.687676819Z","level":"INFO","msg":"stream: started","id":"aqil41pc"}
+{"time":"2024-11-14T10:35:48.687801825Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"aqil41pc"}}
+{"time":"2024-11-14T10:35:48.687869791Z","level":"INFO","msg":"handler: started","stream_id":{"value":"aqil41pc"}}
+{"time":"2024-11-14T10:35:48.687880841Z","level":"INFO","msg":"sender: started","stream_id":"aqil41pc"}
+{"time":"2024-11-14T10:35:49.215153775Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-14T10:48:14.322671769Z","level":"ERROR","msg":"runconsolelogs: failed to write to file: failed to open file: open /scratch/zhoujunting/zjt/wandb/run-20241114_103548-aqil41pc/files/output.log: no such file or directory"}
+{"time":"2024-11-14T10:49:03.276026205Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-14T10:49:03.277512693Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-14T10:49:03.27795104Z","level":"ERROR","msg":"sender: failed to upload run summary: open /scratch/zhoujunting/zjt/wandb/run-20241114_103548-aqil41pc/files/wandb-summary.json: no such file or directory"}
+{"time":"2024-11-14T10:49:03.634674147Z","level":"ERROR","msg":"sender: failed to upload run config: open /scratch/zhoujunting/zjt/wandb/run-20241114_103548-aqil41pc/files/config.yaml: no such file or directory"}
+{"time":"2024-11-14T10:49:03.635606772Z","level":"WARN","msg":"No requirements.txt found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-11-14T10:49:03.635656288Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-14T10:49:03.68585491Z","level":"WARN","msg":"runfiles: upload: file does not exist","path":"/scratch/zhoujunting/zjt/wandb/run-20241114_103548-aqil41pc/files/output.log"}
+{"time":"2024-11-14T10:49:03.685925506Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-14T10:49:04.276287262Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading console logs","runtime_seconds":0.046719791}],"total_operations":1}}
+{"time":"2024-11-14T10:49:05.733652067Z","level":"INFO","msg":"stream: closing","id":"aqil41pc"}
+{"time":"2024-11-14T10:49:05.73369721Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"aqil41pc"}}
+{"time":"2024-11-14T10:49:05.733730084Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"aqil41pc"}}
+{"time":"2024-11-14T10:49:05.73378369Z","level":"INFO","msg":"sender: closed","stream_id":"aqil41pc"}
+{"time":"2024-11-14T10:49:05.733906114Z","level":"INFO","msg":"stream: closed","id":"aqil41pc"}

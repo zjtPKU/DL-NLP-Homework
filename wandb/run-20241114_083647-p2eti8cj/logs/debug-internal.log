@@ -1,0 +1,20 @@
+{"time":"2024-11-14T08:36:47.932703537Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-14T08:36:47.932745255Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241114_083647-p2eti8cj/logs/debug-core.log"}
+{"time":"2024-11-14T08:36:48.249927247Z","level":"INFO","msg":"created new stream","id":"p2eti8cj"}
+{"time":"2024-11-14T08:36:48.249985467Z","level":"INFO","msg":"stream: started","id":"p2eti8cj"}
+{"time":"2024-11-14T08:36:48.250075161Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"p2eti8cj"}}
+{"time":"2024-11-14T08:36:48.250156623Z","level":"INFO","msg":"handler: started","stream_id":{"value":"p2eti8cj"}}
+{"time":"2024-11-14T08:36:48.250229013Z","level":"INFO","msg":"sender: started","stream_id":"p2eti8cj"}
+{"time":"2024-11-14T08:36:48.802915007Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-14T08:42:40.850689358Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-14T08:42:40.851665538Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-14T08:42:41.264575159Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-14T08:42:41.264616436Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-14T08:42:41.264627726Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-14T08:42:41.851474372Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.276653069,"progress":"9.7KB/9.7KB"},{"desc":"uploading output.log","runtime_seconds":0.276626838,"progress":"5.2KB/5.2KB"}],"total_operations":2}}
+{"time":"2024-11-14T08:42:41.983550966Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-14T08:42:43.970293452Z","level":"INFO","msg":"stream: closing","id":"p2eti8cj"}
+{"time":"2024-11-14T08:42:43.970338501Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"p2eti8cj"}}
+{"time":"2024-11-14T08:42:43.970368915Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"p2eti8cj"}}
+{"time":"2024-11-14T08:42:43.970480979Z","level":"INFO","msg":"sender: closed","stream_id":"p2eti8cj"}
+{"time":"2024-11-14T08:42:43.970583286Z","level":"INFO","msg":"stream: closed","id":"p2eti8cj"}

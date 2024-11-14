@@ -1,0 +1,20 @@
+{"time":"2024-11-13T03:40:28.258019695Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T03:40:28.258041406Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241113_034028-kog83nlz/logs/debug-core.log"}
+{"time":"2024-11-13T03:40:28.467461156Z","level":"INFO","msg":"created new stream","id":"kog83nlz"}
+{"time":"2024-11-13T03:40:28.467574132Z","level":"INFO","msg":"stream: started","id":"kog83nlz"}
+{"time":"2024-11-13T03:40:28.467652256Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kog83nlz"}}
+{"time":"2024-11-13T03:40:28.467683173Z","level":"INFO","msg":"handler: started","stream_id":{"value":"kog83nlz"}}
+{"time":"2024-11-13T03:40:28.467700914Z","level":"INFO","msg":"sender: started","stream_id":"kog83nlz"}
+{"time":"2024-11-13T03:40:29.580076012Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T04:07:57.978718653Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T04:07:57.979567028Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T04:07:58.292147877Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-13T04:07:58.292180397Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-13T04:07:58.292185141Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-13T04:07:58.979516079Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.666989761,"progress":"624B/624B"},{"desc":"uploading output.log","runtime_seconds":0.373165284,"progress":"14.3KB/14.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.373151539,"progress":"9.7KB/9.7KB"}],"total_operations":3}}
+{"time":"2024-11-13T04:08:00.092318139Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-13T04:08:01.643159562Z","level":"INFO","msg":"stream: closing","id":"kog83nlz"}
+{"time":"2024-11-13T04:08:01.643180858Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"kog83nlz"}}
+{"time":"2024-11-13T04:08:01.64319919Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kog83nlz"}}
+{"time":"2024-11-13T04:08:01.643332219Z","level":"INFO","msg":"sender: closed","stream_id":"kog83nlz"}
+{"time":"2024-11-13T04:08:01.643339279Z","level":"INFO","msg":"stream: closed","id":"kog83nlz"}

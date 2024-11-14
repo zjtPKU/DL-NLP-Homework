@@ -1,0 +1,13 @@
+{
+  "os": "Linux-5.15.0-117-generic-x86_64-with-glibc2.35",
+  "python": "3.13.0",
+  "startedAt": "2024-11-12T13:46:39.363390Z",
+  "program": "/scratch/zhoujunting/zjt/task2.py",
+  "codePath": "task2.py",
+  "email": "jt.zhoupku@gmail.com",
+  "root": "/scratch/zhoujunting/zjt",
+  "host": "dell-node",
+  "username": "zhoujunting",
+  "executable": "/scratch/zhoujunting/anaconda3/envs/e3/bin/python",
+  "codePathLocal": "task2.py"
+}

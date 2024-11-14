@@ -1,0 +1,22 @@
+/scratch/zhoujunting/anaconda3/envs/e3/lib/python3.13/site-packages/transformers/training_args.py:1568: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Traceback (most recent call last):
+  File "/scratch/zhoujunting/zjt/task2.py", line 77, in <module>
+    training_args = TrainingArguments(
+        evaluation_strategy="steps",
+    ...<3 lines>...
+        logging_dir=f"./logs/{data_args.exp_name}",
+    )
+  File "<string>", line 134, in __init__
+  File "/scratch/zhoujunting/anaconda3/envs/e3/lib/python3.13/site-packages/transformers/training_args.py", line 1773, in __post_init__
+    self.device
+  File "/scratch/zhoujunting/anaconda3/envs/e3/lib/python3.13/site-packages/transformers/training_args.py", line 2299, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/zhoujunting/anaconda3/envs/e3/lib/python3.13/site-packages/transformers/utils/generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "/scratch/zhoujunting/anaconda3/envs/e3/lib/python3.13/site-packages/transformers/training_args.py", line 2172, in _setup_devices
+    raise ImportError(
+    ...<2 lines>...
+    )
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`

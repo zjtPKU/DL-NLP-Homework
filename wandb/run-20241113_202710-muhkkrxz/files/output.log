@@ -1,0 +1,6 @@
+/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Traceback (most recent call last):
+  File "/scratch/zhoujunting/zjt/task3.py", line 99, in <module>
+    from transformers import AdapterConfig
+ImportError: cannot import name 'AdapterConfig' from 'transformers' (/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/__init__.py)

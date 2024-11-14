@@ -1,0 +1,53 @@
+/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/training_args.py:1545: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+RobertaAdapterModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+INFO:adapters.heads.model_mixin:Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 50265, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+Some weights of RobertaAdapterModel were not initialized from the model checkpoint at roberta-base and are newly initialized: ['heads.default.3.bias', 'roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+INFO:adapters.configuration.model_adapters_config:Adding adapter 'restaurant_sup'.
+INFO:adapters.heads.model_mixin:Could not identify valid prediction head(s) from setup 'Stack[restaurant_sup]'.
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3452/3452 [00:00<00:00, 5378.77 examples/s]
+Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1120/1120 [00:00<00:00, 5071.81 examples/s]
+Traceback (most recent call last):
+  File "/scratch/zhoujunting/zjt/task3.py", line 111, in <module>
+    accuracy_metric = evaluate.load("accuracy")
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/loading.py", line 748, in load
+    evaluation_module = evaluation_module_factory(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/loading.py", line 639, in evaluation_module_factory
+    ).get_module()
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/loading.py", line 479, in get_module
+    local_path = self.download_loading_script(revision)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/loading.py", line 469, in download_loading_script
+    return cached_path(file_path, download_config=download_config)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/utils/file_utils.py", line 175, in cached_path
+    output_path = get_from_cache(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/utils/file_utils.py", line 457, in get_from_cache
+    response = http_head(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/utils/file_utils.py", line 378, in http_head
+    response = _request_with_retry(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/evaluate/utils/file_utils.py", line 307, in _request_with_retry
+    response = requests.request(method=method.upper(), url=url, timeout=timeout, **params)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt

@@ -1,0 +1,15 @@
+{"time":"2024-11-12T13:48:17.694629756Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-12T13:48:17.694654448Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241112_134817-fmti2b5a/logs/debug-core.log"}
+{"time":"2024-11-12T13:48:18.716766973Z","level":"INFO","msg":"created new stream","id":"fmti2b5a"}
+{"time":"2024-11-12T13:48:18.716808237Z","level":"INFO","msg":"stream: started","id":"fmti2b5a"}
+{"time":"2024-11-12T13:48:18.717548542Z","level":"INFO","msg":"sender: started","stream_id":"fmti2b5a"}
+{"time":"2024-11-12T13:48:18.717490399Z","level":"INFO","msg":"handler: started","stream_id":{"value":"fmti2b5a"}}
+{"time":"2024-11-12T13:48:18.717588339Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fmti2b5a"}}
+{"time":"2024-11-12T13:48:19.257780151Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-12T13:48:32.934020348Z","level":"INFO","msg":"stream: closing","id":"fmti2b5a"}
+{"time":"2024-11-12T13:48:32.934054967Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-12T13:48:32.936194182Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-12T13:48:33.40488048Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-12T13:48:33.404905178Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-12T13:48:33.404909685Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-12T13:48:34.203316277Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

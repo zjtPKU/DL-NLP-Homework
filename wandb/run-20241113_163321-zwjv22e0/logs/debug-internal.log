@@ -1,0 +1,19 @@
+{"time":"2024-11-13T16:33:21.257050807Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T16:33:21.257088055Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241113_163321-zwjv22e0/logs/debug-core.log"}
+{"time":"2024-11-13T16:33:21.575889117Z","level":"INFO","msg":"created new stream","id":"zwjv22e0"}
+{"time":"2024-11-13T16:33:21.575967629Z","level":"INFO","msg":"stream: started","id":"zwjv22e0"}
+{"time":"2024-11-13T16:33:21.576014415Z","level":"INFO","msg":"sender: started","stream_id":"zwjv22e0"}
+{"time":"2024-11-13T16:33:21.575993379Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zwjv22e0"}}
+{"time":"2024-11-13T16:33:21.576004872Z","level":"INFO","msg":"handler: started","stream_id":{"value":"zwjv22e0"}}
+{"time":"2024-11-13T16:33:22.226559812Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T16:33:27.464965324Z","level":"INFO","msg":"stream: closing","id":"zwjv22e0"}
+{"time":"2024-11-13T16:33:27.465027574Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T16:33:27.465853972Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T16:33:27.795100027Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-13T16:33:27.795136933Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-13T16:33:27.79514808Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-13T16:33:28.467546664Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-13T16:33:28.95830927Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"zwjv22e0"}}
+{"time":"2024-11-13T16:33:28.958375897Z","level":"INFO","msg":"sender: closed","stream_id":"zwjv22e0"}
+{"time":"2024-11-13T16:33:28.958350881Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zwjv22e0"}}
+{"time":"2024-11-13T16:33:28.958495531Z","level":"INFO","msg":"stream: closed","id":"zwjv22e0"}

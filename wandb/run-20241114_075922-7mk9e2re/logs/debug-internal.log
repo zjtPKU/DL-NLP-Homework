@@ -1,0 +1,20 @@
+{"time":"2024-11-14T07:59:22.413975158Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-14T07:59:22.414012997Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241114_075922-7mk9e2re/logs/debug-core.log"}
+{"time":"2024-11-14T07:59:22.732333672Z","level":"INFO","msg":"created new stream","id":"7mk9e2re"}
+{"time":"2024-11-14T07:59:22.732397004Z","level":"INFO","msg":"stream: started","id":"7mk9e2re"}
+{"time":"2024-11-14T07:59:22.732482105Z","level":"INFO","msg":"sender: started","stream_id":"7mk9e2re"}
+{"time":"2024-11-14T07:59:22.732468142Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7mk9e2re"}}
+{"time":"2024-11-14T07:59:22.732550669Z","level":"INFO","msg":"handler: started","stream_id":{"value":"7mk9e2re"}}
+{"time":"2024-11-14T07:59:23.331773635Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-14T08:12:09.013009923Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-14T08:12:09.014002823Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-14T08:12:09.44614994Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-14T08:12:09.446193269Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-14T08:12:09.446204702Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-14T08:12:10.013726535Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6840327,"progress":"623B/623B"},{"desc":"uploading config.yaml","runtime_seconds":0.269038308,"progress":"9.6KB/9.6KB"},{"desc":"uploading output.log","runtime_seconds":0.269021276,"progress":"8.2KB/8.2KB"}],"total_operations":3}}
+{"time":"2024-11-14T08:12:10.819316115Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-14T08:12:12.726516052Z","level":"INFO","msg":"stream: closing","id":"7mk9e2re"}
+{"time":"2024-11-14T08:12:12.726560798Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"7mk9e2re"}}
+{"time":"2024-11-14T08:12:12.726619121Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7mk9e2re"}}
+{"time":"2024-11-14T08:12:12.726660956Z","level":"INFO","msg":"sender: closed","stream_id":"7mk9e2re"}
+{"time":"2024-11-14T08:12:12.726822195Z","level":"INFO","msg":"stream: closed","id":"7mk9e2re"}

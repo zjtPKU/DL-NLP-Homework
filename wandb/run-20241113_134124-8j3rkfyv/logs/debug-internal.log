@@ -1,0 +1,20 @@
+{"time":"2024-11-13T13:41:24.237728169Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T13:41:24.237753177Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241113_134124-8j3rkfyv/logs/debug-core.log"}
+{"time":"2024-11-13T13:41:24.553431861Z","level":"INFO","msg":"created new stream","id":"8j3rkfyv"}
+{"time":"2024-11-13T13:41:24.553483816Z","level":"INFO","msg":"stream: started","id":"8j3rkfyv"}
+{"time":"2024-11-13T13:41:24.55352409Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"8j3rkfyv"}}
+{"time":"2024-11-13T13:41:24.553605024Z","level":"INFO","msg":"sender: started","stream_id":"8j3rkfyv"}
+{"time":"2024-11-13T13:41:24.553682994Z","level":"INFO","msg":"handler: started","stream_id":{"value":"8j3rkfyv"}}
+{"time":"2024-11-13T13:41:25.071149879Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T13:54:24.55381224Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T13:54:24.554478997Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T13:54:24.981582743Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-13T13:54:24.981617511Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-13T13:54:24.981628453Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-13T13:54:25.554604545Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.665252921,"progress":"622B/622B"},{"desc":"uploading config.yaml","runtime_seconds":0.250763403,"progress":"9.7KB/9.7KB"},{"desc":"uploading output.log","runtime_seconds":0.250746663,"progress":"8.4KB/8.4KB"}],"total_operations":3}}
+{"time":"2024-11-13T13:54:25.917822348Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-13T13:54:27.937388732Z","level":"INFO","msg":"stream: closing","id":"8j3rkfyv"}
+{"time":"2024-11-13T13:54:27.937421414Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"8j3rkfyv"}}
+{"time":"2024-11-13T13:54:27.93744853Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"8j3rkfyv"}}
+{"time":"2024-11-13T13:54:27.937462604Z","level":"INFO","msg":"sender: closed","stream_id":"8j3rkfyv"}
+{"time":"2024-11-13T13:54:27.937588497Z","level":"INFO","msg":"stream: closed","id":"8j3rkfyv"}

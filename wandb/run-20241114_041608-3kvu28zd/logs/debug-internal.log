@@ -1,0 +1,20 @@
+{"time":"2024-11-14T04:16:08.667997471Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-14T04:16:08.668037723Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241114_041608-3kvu28zd/logs/debug-core.log"}
+{"time":"2024-11-14T04:16:09.487642036Z","level":"INFO","msg":"created new stream","id":"3kvu28zd"}
+{"time":"2024-11-14T04:16:09.487700086Z","level":"INFO","msg":"stream: started","id":"3kvu28zd"}
+{"time":"2024-11-14T04:16:09.487782511Z","level":"INFO","msg":"sender: started","stream_id":"3kvu28zd"}
+{"time":"2024-11-14T04:16:09.48772263Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3kvu28zd"}}
+{"time":"2024-11-14T04:16:09.487873774Z","level":"INFO","msg":"handler: started","stream_id":{"value":"3kvu28zd"}}
+{"time":"2024-11-14T04:16:10.129019611Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-14T04:20:22.501368261Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-14T04:20:22.502140828Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-14T04:20:23.502428494Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.999265913},{"desc":"uploading wandb-summary.json","runtime_seconds":0.661394563,"progress":"618B/618B"}],"total_operations":2}}
+{"time":"2024-11-14T04:20:24.005673186Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-14T04:20:24.005700422Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-14T04:20:24.005711228Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-14T04:20:25.472440408Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-14T04:20:27.062051903Z","level":"INFO","msg":"stream: closing","id":"3kvu28zd"}
+{"time":"2024-11-14T04:20:27.06209257Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"3kvu28zd"}}
+{"time":"2024-11-14T04:20:27.062150872Z","level":"INFO","msg":"sender: closed","stream_id":"3kvu28zd"}
+{"time":"2024-11-14T04:20:27.062136377Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3kvu28zd"}}
+{"time":"2024-11-14T04:20:27.062378479Z","level":"INFO","msg":"stream: closed","id":"3kvu28zd"}

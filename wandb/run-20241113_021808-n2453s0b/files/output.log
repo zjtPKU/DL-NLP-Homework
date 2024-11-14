@@ -1,0 +1,30 @@
+/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/training_args.py:1568: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3452/3452 [00:00<00:00, 6072.33 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1120/1120 [00:00<00:00, 8231.50 examples/s]
+/scratch/zhoujunting/zjt/task2.py:116: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+ 12%|██████████████████▎                                                                                                                                           | 500/4320 [01:24<09:05,  7.00it/s]Traceback (most recent call last):
+  File "/scratch/zhoujunting/zjt/task2.py", line 127, in <module>                                                                                                                                     
+{'eval_loss': 0.5406497120857239, 'eval_accuracy': 0.7991071428571429, 'eval_micro_f1': 0.7991071428571429, 'eval_macro_f1': 0.6828770120240758, 'eval_runtime': 6.1883, 'eval_samples_per_second': 180.986, 'eval_steps_per_second': 22.623, 'epoch': 0.46}
+{'eval_loss': 0.4519810676574707, 'eval_accuracy': 0.8116071428571429, 'eval_micro_f1': 0.8116071428571429, 'eval_macro_f1': 0.7315612713932395, 'eval_runtime': 6.1249, 'eval_samples_per_second': 182.861, 'eval_steps_per_second': 22.858, 'epoch': 0.93}
+{'loss': 0.6522, 'grad_norm': 4.536823749542236, 'learning_rate': 4.4212962962962966e-05, 'epoch': 1.16}
+    trainer.train()
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/trainer.py", line 2123, in train
+    return inner_training_loop(
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/trainer.py", line 3007, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/trainer.py", line 3101, in _save_checkpoint
+    self._save_optimizer_and_scheduler(output_dir)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/transformers/trainer.py", line 3247, in _save_optimizer_and_scheduler
+    torch.save(self.optimizer.state_dict(), os.path.join(output_dir, OPTIMIZER_NAME))
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/torch/serialization.py", line 652, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/scratch/zhoujunting/anaconda3/envs/MAGA/lib/python3.10/site-packages/torch/serialization.py", line 886, in _save
+    zip_file.write_record(name, storage, num_bytes)
+KeyboardInterrupt

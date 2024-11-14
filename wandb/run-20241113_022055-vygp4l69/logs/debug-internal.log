@@ -1,0 +1,14 @@
+{"time":"2024-11-13T02:20:55.453751698Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T02:20:55.453779907Z","level":"INFO","msg":"created symlink","path":"/scratch/zhoujunting/zjt/wandb/run-20241113_022055-vygp4l69/logs/debug-core.log"}
+{"time":"2024-11-13T02:20:55.965287757Z","level":"INFO","msg":"created new stream","id":"vygp4l69"}
+{"time":"2024-11-13T02:20:55.965332745Z","level":"INFO","msg":"stream: started","id":"vygp4l69"}
+{"time":"2024-11-13T02:20:55.965493107Z","level":"INFO","msg":"handler: started","stream_id":{"value":"vygp4l69"}}
+{"time":"2024-11-13T02:20:55.965643096Z","level":"INFO","msg":"sender: started","stream_id":"vygp4l69"}
+{"time":"2024-11-13T02:20:55.965663009Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vygp4l69"}}
+{"time":"2024-11-13T02:20:56.52679077Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T02:21:35.023198168Z","level":"INFO","msg":"stream: closing","id":"vygp4l69"}
+{"time":"2024-11-13T02:21:35.023239915Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T02:21:35.024076809Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T02:21:35.32763905Z","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-13T02:21:35.327695044Z","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-13T02:21:35.327702011Z","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
